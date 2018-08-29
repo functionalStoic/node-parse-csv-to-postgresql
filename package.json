@@ -1,0 +1,23 @@
+{
+  "name": "node-parse-csv-to-postgresql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fast-csv": "^2.4.1",
+    "knex": "^0.15.2",
+    "objection": "^1.2.2",
+    "pg": "^7.4.3",
+    "winston": "^3.0.0"
+  },
+  "scripts": {
+    "start": "nodemon --inspect ./server.js --exec babel-node --source-maps"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "prettier": "^1.13.7"
+  }
+}
